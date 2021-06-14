@@ -1,0 +1,34 @@
+.navBar{
+background: var(--secondary);
+display:flex;
+justify-content: space-between;
+padding: 20px;
+
+}
+.navBar h1{
+    padding: 0;
+    margin: 0;
+}
+.navBar ul{
+margin: 0;
+padding: 0;
+list-style: none;
+text-align: center;
+
+}
+.navBar ul li{
+    display: inline-block;
+    color: white;
+ padding: 8px 20px;
+margin: 0 5px;
+border-radius: 5px;
+}
+
+.navBar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navBar li:hover{
+    background: var(--primary);
+}

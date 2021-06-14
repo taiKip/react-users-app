@@ -1,0 +1,39 @@
+.user{
+height: 350px;
+min-width: 250px;
+box-shadow: -1rem 0 3rem #000000;
+background: var(--primary);
+border-radius: 15px;
+transition: .2s;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    background: rgba(128, 93, 128, 0.404);
+    border-radius: 50%;
+    margin: 30px auto;
+    display: grid;
+ place-items: center;
+ font-size: 1.5rem;
+}
+.user button{
+    margin: 10px auto;
+    background: var(--secondary);
+
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 3px;
+    transition: all ease-in-out 0.8s;
+  
+}
+.user:hover{
+    transform: translateY(-1rem);
+}
+.user:hover~.user{
+    transform: translateX(10px);
+}
+
+.user button:hover{
+    transform: scale(1.2);
+}

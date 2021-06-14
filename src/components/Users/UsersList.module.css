@@ -1,0 +1,21 @@
+.usersList{
+text-align: center;
+    height: 100%;
+ display: flex;
+ overflow-x: scroll;
+ padding: 30px;
+align-items: center;
+}
+.usersList::-webkit-scrollbar{
+    height: 12px;
+    width: 12px;
+}
+.usersList::-webkit-scrollbar-track{
+background:var(--secondary);
+}
+
+.usersList::-webkit-scrollbar-thumb{
+    background-color:orange;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    /* creates padding around scroll thumb */
+}
