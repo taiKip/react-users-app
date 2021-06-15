@@ -15,12 +15,23 @@ margin: 0 auto;
     background: white;
  position: fixed;
    color: black;
-  left: 50%;
     z-index: 100;
     width: 30%;
     padding: 20px;
-    transform: translate(-50%, -30%);
+top: 20vh;
     border-radius: 12px;
+   left: 35%;
     border-top:3px solid red;
     border-bottom: 3px solid var(--secondary);
+    animation: slide-down 300ms ease-out forwards;
 }
+@keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-4rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
