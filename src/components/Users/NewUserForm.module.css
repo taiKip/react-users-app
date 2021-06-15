@@ -1,0 +1,34 @@
+.inputForm{
+    display: grid;
+   grid-template-columns: repeat(12,1fr);
+   row-gap: 1rem;
+   padding: 3rem;
+}
+.inputForm label{
+    grid-column: 3/7;
+    text-align: center;
+  
+}
+.inputForm input{
+    padding: 5px 8px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background: rgba(190, 170, 190, 0.589);
+    color: greenyellow;
+}
+.gender {
+    border-radius: 5px;
+    padding: 0 5px ;
+    font-size: 1.2em;
+    background: rgba(190, 170, 190, 0.589);
+    color: greenyellow;
+}
+.submitButton{
+    background: var(--secondary);
+    padding: 5px 15px;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+}

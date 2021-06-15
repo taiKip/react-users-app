@@ -3,7 +3,7 @@ text-align: center;
     height: 100%;
  display: flex;
  overflow-x: scroll;
- padding: 30px;
+
 align-items: center;
 }
 .usersList::-webkit-scrollbar{
@@ -15,7 +15,30 @@ background:var(--secondary);
 }
 
 .usersList::-webkit-scrollbar-thumb{
-    background-color:orange;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    /* creates padding around scroll thumb */
+    background-color:orange;    
+    border-radius: 20px;       
+    
+}
+.actions {
+    display: flex;
+  place-items: center;
+  flex-flow: row;
+  gap: 2rem;
+  justify-content: center;
+}
+.actions button{
+    border:none;
+   width: 35%;
+   border-radius: 10px;
+   padding: 8px;
+   font-size: 1.2em;
+color:white;
+cursor: pointer;
+}
+.actions .delete{
+    background: red;
+}
+
+.actions .cancel{
+    background: var(--primary);
 }

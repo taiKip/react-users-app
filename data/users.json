@@ -1,73 +1,92 @@
 {
-  "users":[{
-    "id": 1,
-    "name": "Sergent Coverley",
-    "email": "scoverley0@com.com",
-    "gender": "Male",
-    "address": "1 Esker Plaza",
-    "phone": "376 738 2876"
-  }, {
-    "id": 2,
-    "name": "Pegeen Mettricke",
-    "email": "pmettricke1@intel.com",
-    "gender": "Female",
-    "address": "5 Toban Avenue",
-    "phone": "775 825 1562"
-  }, {
-    "id": 3,
-    "name": "Rosita Layne",
-    "email": "rlayne2@harvard.edu",
-    "gender": "Male",
-    "address": "540 Bashford Terrace",
-    "phone": "303 814 9865"
-  }, {
-    "id": 4,
-    "name": "Dara Hawke",
-    "email": "dhawke3@plala.or.jp",
-    "gender": "Female",
-    "address": "8 Anniversary Trail",
-    "phone": "320 264 9715"
-  }, {
-    "id": 5,
-    "name": "Lyndsay Keyho",
-    "email": "lkeyho4@ucoz.com",
-    "gender": "Male",
-    "address": "1019 Garrison Hill",
-    "phone": "945 331 6064"
-  }, {
-    "id": 6,
-    "name": "Sal Stonham",
-    "email": "sstonham5@cbslocal.com",
-    "gender": "Male",
-    "address": "4625 Burrows Parkway",
-    "phone": "770 143 7784"
-  }, {
-    "id": 7,
-    "name": "Peyter Linton",
-    "email": "plinton6@google.de",
-    "gender": "Female",
-    "address": "015 Coleman Court",
-    "phone": "606 105 2642"
-  }, {
-    "id": 8,
-    "name": "Renie Pagitt",
-    "email": "rpagitt7@zimbio.com",
-    "gender": "Male",
-    "address": "251 New Castle Terrace",
-    "phone": "462 654 6406"
-  }, {
-    "id": 9,
-    "name": "Lois Bernaert",
-    "email": "lbernaert8@mysql.com",
-    "gender": "Female",
-    "address": "5 Shelley Parkway",
-    "phone": "956 502 7901"
-  }, {
-    "id": 10,
-    "name": "Hanni Miche",
-    "email": "hmiche9@mac.com",
-    "gender": "Male",
-    "address": "946 Evergreen Park",
-    "phone": "836 275 8841"
-  }]
+  "users": [
+    {
+      "id": 1,
+      "name": "Sergent Coverley",
+      "email": "scoverley0@com.com",
+      "gender": "Male",
+      "city": "Vaasa",
+      "phone": "376 738 2876"
+    },
+    {
+      "id": 2,
+      "name": "Pegeen Mettricke",
+      "email": "pmettricke1@intel.com",
+      "gender": "Female",
+      "city": "Pietasaari",
+      "phone": "775 825 1562"
+    },
+    {
+      "id": 3,
+      "name": "Rosita Layne",
+      "email": "rlayne2@harvard.edu",
+      "gender": "Male",
+      "city": "Vantaa",
+      "phone": "303 814 9865"
+    },
+    {
+      "id": 4,
+      "name": "Dara Hawke",
+      "email": "dhawke3@plala.or.jp",
+      "gender": "Female",
+      "city": "Espoo",
+      "phone": "320 264 9715"
+    },
+    {
+      "id": 5,
+      "name": "Lyndsay Keyho",
+      "email": "lkeyho4@ucoz.com",
+      "gender": "Male",
+      "city": "Oulu",
+      "phone": "945 331 6064"
+    },
+    {
+      "id": 6,
+      "name": "Sal Stonham",
+      "email": "sstonham5@cbslocal.com",
+      "gender": "Male",
+      "city": "Lahti",
+      "phone": "770 143 7784"
+    },
+    {
+      "id": 7,
+      "name": "Peyter Linton",
+      "email": "plinton6@google.de",
+      "gender": "Female",
+      "city": "Tampere",
+      "phone": "606 105 2642"
+    },
+    {
+      "id": 8,
+      "name": "Renie Pagitt",
+      "email": "rpagitt7@zimbio.com",
+      "gender": "Male",
+      "city": "Joensuu",
+      "phone": "462 654 6406"
+    },
+    {
+      "id": 9,
+      "name": "Lois Bernaert",
+      "email": "lbernaert8@mysql.com",
+      "gender": "Female",
+      "city": "Helsinki",
+      "phone": "956 502 7901"
+    },
+    {
+      "id": 10,
+      "name": "Hanni Miche",
+      "email": "hmiche9@mac.com",
+      "gender": "Male",
+      "city": "Turku",
+      "phone": "836 275 8841"
+    },
+    {
+      "name": "victor Tarus",
+      "email": "victortarus6@gmail.com",
+      "gender": "male",
+      "city": "Kokkola",
+      "phoneNum": "+358465814224",
+      "id": 11
+    }
+  ]
 }

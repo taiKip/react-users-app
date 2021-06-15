@@ -1,0 +1,26 @@
+.backdrop{
+    top: 0;
+left:50%;
+    width: 60%;
+margin: 0 auto;
+    height: 100vh;
+    z-index: 30;
+    
+    transform: translate(-50%,0);
+    position:fixed;
+    background: #17141d8a;
+}
+.modal{
+    top: 30vh;
+    background: white;
+ position: fixed;
+   color: black;
+  left: 50%;
+    z-index: 100;
+    width: 30%;
+    padding: 20px;
+    transform: translate(-50%, -30%);
+    border-radius: 12px;
+    border-top:3px solid red;
+    border-bottom: 3px solid var(--secondary);
+}

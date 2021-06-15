@@ -4,13 +4,16 @@ const initialState = {
   users: [],
   isLoading: true,
   error: null,
+  showModal:false
 };
-
+//takes in a url as an argument and returns a state and a dispatch.Innitial state is passed in
 const useFetchHook = (url) => {
   const [state, dispatch] = useReducer(usersReducer, [], () => initialState);
 
   useEffect(() => {
-    fetch(url)
+    const abortCont = new AbortController();
+
+    fetch(url,{signal:abortCont.signal})
       .then((res) => {
         if (!res.ok) {
           throw Error("sorry ,could not fetch data for that resource :(");
@@ -23,8 +26,9 @@ const useFetchHook = (url) => {
       .catch((error) => {
         dispatch({ type: "FETCH_ERROR", payload: error.message });
       });
-  }, []);
-  return { state };
+      return ()=>abortCont.abort()
+  }, [url]);
+  return { state ,dispatch};
 };
 
 export default useFetchHook;

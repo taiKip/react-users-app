@@ -19,16 +19,17 @@ text-align: center;
 .navBar ul li{
     display: inline-block;
     color: white;
- padding: 8px 20px;
-margin: 0 5px;
-border-radius: 5px;
+ 
 }
 
 .navBar ul li a{
     color: white;
     text-decoration: none;
+    padding: 8px 20px;
+margin: 0 5px;
+border-radius: 5px;
 }
 
-.navBar li:hover{
+.navBar li a:hover{
     background: var(--primary);
 }

@@ -19,7 +19,8 @@ transition: .2s;
 .user button{
     margin: 10px auto;
     background: var(--secondary);
-
+    width: 60%;
+display: block;
     color: white;
     border: none;
     padding: 5px 8px;
@@ -36,4 +37,7 @@ transition: .2s;
 
 .user button:hover{
     transform: scale(1.2);
+}
+.user .delete{
+    background-color: orange;
 }
